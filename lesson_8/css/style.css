@@ -1,0 +1,177 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:regular,700,900);
+
+body {
+	font-family: Lato;
+	color: #1E212C;
+	background-color: rgb(239, 106, 241);
+}
+[class*="__container"]{
+	max-width: 1230px;
+	margin: 0 auto;
+}
+
+.head {
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 24px;
+	color: rgb(57, 29, 29);
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	padding: 15px;
+
+}
+
+.page {
+}
+.page__container {
+	background-color: rgb(247, 242, 242);
+	margin: 0 auto;
+	padding: 15px;
+	border-radius:  51px 0px 46px 0px;
+	box-shadow: 26px 29px 11px -6px rgba(0,0,0,0.85);
+	margin-bottom: 60px;
+
+
+}
+.title {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	margin-bottom: 40px;
+}
+.text {
+	line-height: 160%;
+	color: #424551;
+	/*margin-bottom: 48px;*/
+	max-width: 600px;
+}
+.title_2 {
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 150%;
+	margin-bottom: 24px;
+}
+/*
+.item li {
+	background: url('../img/Vector.svg') 0 6px  no-repeat;
+	padding-left: 30px;
+} */
+
+ul li::before {
+	background: url('../img/Vector.svg') 0 0 no-repeat;
+	content: "";
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	padding-left: 30px;
+}
+
+ul li:hover::before {
+	transform: scale(2);
+}
+
+.header {
+margin-bottom: 50px;
+background-color: bisque;
+
+}
+
+.course {
+
+}
+.courator__course {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 150%;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	margin-bottom: 6px;
+}
+.cody_fisher {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	margin-bottom: 16px;
+}
+.job_title {
+	font-size: 20px;
+	line-height: 150%;
+	color: #787A80;
+	margin-bottom: 32px;
+}
+.curator__program{
+	margin-bottom: 32px;
+}
+/*
+.curator__program p:nth-child(1){
+	font-weight: 700;
+	line-height: 160%;
+	padding-left: 24px;
+	color: #424551;
+	margin-bottom: 4px;
+	background: url('../img/Star.svg') 0 6px  no-repeat;
+} */
+.curator__program p:nth-child(1)::before{
+	content: "";
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	font-weight: 700;
+	line-height: 160%;
+	padding-left: 24px;
+	color: #424551;
+	background: url('../img/Star.svg') 0 0 no-repeat;
+}
+.curator__program p:nth-child(1):hover::before {
+	transition: all 0.8s ease 0s;
+	transform: rotate(360deg);
+}
+
+.curator__program p:nth-child(2){
+	font-weight: 700;
+	line-height: 160%;
+	padding-left: 24px;
+	color: #424551;
+	margin-bottom: 4px;
+	background: url('../img/Play.svg') 0 6px  no-repeat;
+}
+.curator__program p:nth-child(3){
+	font-weight: 700;
+	line-height: 160%;
+	padding-left: 24px;
+	color: #424551;
+	background: url('../img/Person.svg') 0 6px  no-repeat;
+}
+
+.curator__program p:first-child{
+	margin-bottom: 4px;
+	font-weight: 700;
+	color: #424551;
+}
+
+.link {
+	text-decoration: underline;
+	color: blue;
+	display:inline-block;
+	text-align: right;
+}
+
+div p:first-child{
+	margin-bottom:48px;
+}
+
+.text1 p:last-child {
+	line-height: 160%;
+	color: #424551;
+	margin-bottom: 0px;
+	max-width: 600px;
+}
+.link {
+	display: inline-block;
+	text-align: right;
+}
+
+
+
+
+
