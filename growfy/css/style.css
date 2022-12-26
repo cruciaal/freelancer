@@ -1191,6 +1191,10 @@ body {
   color: #999999;
 }
 
+.subscribe {
+  flex-direction: column;
+}
+
 .bottom-footer {
   border-top: 1px solid rgba(129, 129, 139, 0.2);
   padding-top: 50px;
