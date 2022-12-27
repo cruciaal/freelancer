@@ -1072,6 +1072,8 @@ body {
 	// .item-blog__body
 	&__body {
 		padding: 36px 26px;
+		display: flex;
+		flex-direction: column;
 		
 	}
 	// .item-blog__date
@@ -1088,6 +1090,7 @@ body {
 		font-size: 19.2px;
 		line-height: 1.4;
 		color: #fff;
+		flex-basis: 55px;
 	}
 	&__title:not(:last-child) {
 		margin-bottom: 30px;
@@ -1107,7 +1110,10 @@ body {
 		color: #3D96F4;
 		font-size: 14px;
 		line-height: 1.57;
+		// display: inline-block;
+		align-self: flex-start;
 	}
+	
 	// .item-blog__link
 	&__link:hover {
 		text-decoration: underline;

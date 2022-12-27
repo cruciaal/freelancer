@@ -970,6 +970,8 @@ body {
 }
 .item-blog__body {
   padding: 36px 26px;
+  display: flex;
+  flex-direction: column;
 }
 .item-blog__date {
   color: rgba(129, 129, 139, 0.9);
@@ -983,6 +985,7 @@ body {
   font-size: 19.2px;
   line-height: 1.4;
   color: #fff;
+  flex-basis: 55px;
 }
 .item-blog__title:not(:last-child) {
   margin-bottom: 30px;
@@ -1001,6 +1004,7 @@ body {
   color: #3D96F4;
   font-size: 14px;
   line-height: 1.57;
+  align-self: flex-start;
 }
 .item-blog__link:hover {
   text-decoration: underline;
